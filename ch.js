@@ -1,2 +1,2 @@
-app_version=1;
-alert();
+
+alert("Обновлений пока нет");
