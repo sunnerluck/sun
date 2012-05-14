@@ -1,0 +1,48 @@
+#prop {
+position: absolute;
+top: 20px;
+left: 120px;
+background-color: #fff;
+border: 4px double #555;
+width: 240px;
+height: 450px;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+select {
+width: 98px;
+background-color: #def;
+color: #511;
+float: left;
+}
+
+textarea {
+height: 200px;
+width: 130px;
+overflow: auto;
+padding-left:2px;
+padding-top:2px;
+background-color: #fe0e0;
+}
+#loggers {
+height: 150px;
+background-color: #FFE9C7;
+overflow: auto;
+width: 520px;
+padding-top: 10px;
+padding-left: 10px;
+}
+#lampa {
+position: absolute;
+top: 1px;
+left: 1px;
+height: 15px;
+width: 15px;
+background-color: green;
+}
+#cur_state {
+height: 20px;
+font-size: 12px;
+color: #544;
+}

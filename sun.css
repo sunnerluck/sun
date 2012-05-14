@@ -1,0 +1,288 @@
+html {overflow-y: none;}
+body {font-size: 12pt; background-color: #FFFFeF; font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;TEXT-DECORATION: none;
+overflow-y: 0;
+margin: 10px;
+padding: 0;
+
+}
+.inputLong {
+border: 0;
+height:16px;
+padding:2px;
+background-color: #fff;
+width: 148px;
+ }
+ 
+ .lighterI {
+ 
+ 
+ }
+ input {
+ color: #211;
+ 
+ }
+.txta {
+height: 200px;
+}
+.forChecker {
+float: left;
+display: inline;
+cursor: pointer;
+}
+.forChecker input[type=checkbox] {
+
+height: 15px;
+width: 15px;
+
+}
+.px500 { width: 500px; }
+.px400 { width: 400px; }
+.px300 { width: 300px; }
+.px200 { width: 200px; }
+.px160 { width: 160px; }
+.px150 { width: 150px; }
+.px140 { width: 140px; }
+.px130 { width: 130px; }
+.px100 { width: 100px; }
+.px60 { width: 60px; }
+.px50 { width: 50px; }
+.px40 { width: 40px; }
+.px30 { width: 30px; }
+.w100 { width: 100%; }
+.visib { visibility: visible; }
+.hid { visibility: hidden; }
+.inputer { 
+border: 1px solid #888;
+background-color: #bde;
+margin:2px;
+cursor: default;
+}
+
+
+.preinput {
+float: left;
+height:16px;
+background-color: #bde;
+text-align: center;
+float:left;
+}
+
+.buttons {
+float: left;
+}
+.preinputShort{
+float: left;
+width: 160px;
+height:16px;
+background-color: #bde;
+text-align: center;
+}
+.shortInput {
+border: 0;
+height:16px;
+padding:2px;
+background-color: #fff;
+}
+.closer {
+text-align: right;
+padding:3px;
+}
+.closer div {
+width: 24px;
+height: 22px;
+border: 1px solid #643;
+background-color: #f99;
+
+text-align: center;
+cursor: pointer;
+color: #111;
+}
+.closer div:hover {
+border: 1px solid #f22;
+background-color: #f00;
+color: white;
+}
+select {
+margin:2px;
+
+}
+#header {
+width: 774px;
+height: 50px;
+background-color: #ffda77;
+text-align:center;
+padding-top: 16px;
+font-size: 30px;
+FONT-WEIGHT: bold;
+color: #ffeeee;
+   filter:progid:DXImageTransform.Microsoft.Glow(color=orange, strength=10);
+
+}
+.bBorder {
+z-index: 2;
+border: 1px solid #FF9A00;
+margin-top: 5px;
+margin-bottom: 5px;
+filter:progid:DXImageTransform.Microsoft.MotionBlur(add=true, direction=90, strength=13);
+}
+.bBar {
+z-index: 10;
+filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#FFEB00', EndColorStr='orange');
+}
+A.white-orange {
+	FILTER: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FFDA72', endColorstr='#FFD255'); BACKGROUND: #f0f0f0; COLOR: #333; BORDER: #FFC932 1px solid; 
+}
+A.white-orange:hover {
+	BORDER-BOTTOM: green 1px solid; FILTER: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#ffec00', endColorstr='#ff5800'); BACKGROUND: #ff3300; COLOR: #fff;  BORDER: #FF9A00 1px solid; 
+}
+A.but {
+	PADDING-BOTTOM: 1px; LINE-HEIGHT: 1; MARGIN: 4px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; DISPLAY: inline-block; text-align:center; FONT-FAMILY: "Trebuchet MS", Arial, Helvetica, sans-serif; FONT-WEIGHT: bold; TEXT-DECORATION: none; PADDING-TOP: 0px; 
+}
+A.but > B {
+	PADDING-BOTTOM: 0.44em; PADDING-LEFT: 0.6em; PADDING-RIGHT: 0.6em; DISPLAY: block; PADDING-TOP: 0.44em
+}
+.normal {
+	 min-WIDTH: 80px; HEIGHT: 26px; FONT-SIZE: 14px
+}
+ #poplog {
+ padding: 20px;
+ z-index:200;
+ position: absolute;
+ top: 200px;
+ left:275px;
+ width: 210px;
+ height: 100px;
+FILTER: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FFF9BF', endColorstr='#FFFFBF');
+BORDER: #FF9A00 1px solid; 
+
+visibility:visible;
+ }
+ .plinput {
+margin:0;
+position:relative;
+background-color: #fffff0;
+padding-left:2px;
+padding-right:2px;
+padding-top:4px;
+padding-bottom: 0px;
+display: inline;
+height:133px;
+border-right: 1px solid #aaa;
+text-align:center;
+width: 10px;
+color: #464;
+}
+
+.LockOff { 
+display: none; 
+visibility: hidden; 
+} 
+
+.LockOn { 
+display: block; 
+visibility: visible; 
+position: absolute; 
+z-index: 2; 
+top: 0px; 
+left: 0px; 
+width: 105%; 
+height: 105%; 
+background-color: #fb4; 
+text-align: center; 
+padding-top: 20%; 
+filter: alpha(opacity=85); 
+} 
+td { 
+vertical-align:top;
+padding: 0;
+margin: 0;
+} 
+table {
+border-collapse: collapse;
+
+}
+ #main {
+ margin-left: 10px;
+ margin-top: 10px;
+ 
+width: 650px;
+height: 300px;
+border: 1px solid orange;
+}
+.ali  {
+margin: 10px;
+
+}
+.ali td {
+vertical-align: middle;
+padding-right: 15px;
+cursor: pointer;
+color: #999;
+}
+.ali td:hover{
+position: relative;
+top: -2px;
+color: #111;
+}
+
+#prop {
+width: 650px;
+height: 49px;
+z-index:3;
+border-bottom: 1px solid #aaa;
+}
+#win {
+overflow-y: scroll ;
+width: 636px;
+height: 185px;
+padding: 5px;
+padding-bottom: 60px;
+
+}
+
+#u_info {
+
+margin-top: 10px;
+width: 110px;
+padding: 5px;
+text-align:center;
+min-height: 60px;
+}
+
+.elem {
+border: 1px solid #999;
+padding: 4px;
+
+cursor: pointer;
+color: #a99;
+background-color: #FFFFeF;
+
+}
+.elem:hover {
+color: #100;
+border: 1px solid #100;
+background-color: white;
+}
+.selected_elem {
+border: 1px solid #550000;
+padding: 4px;
+cursor: pointer;
+color: #ffffff;
+background-color: #ffaa00;
+
+}
+
+#prompter {
+visibility:hidden;
+height: 70px;
+width: 130px;
+border: 1px solid orange;
+padding: 10px;
+position: absolute;
+top: 250px;
+left: 300px;
+FILTER: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#FFF9BF', endColorstr='#FFFFBF');
+}
+#obj_id {
+width: 100px;
+}
